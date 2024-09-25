@@ -1,7 +1,5 @@
 # LinkedIn Reply Assistant
 
-## Description
-
 LinkedIn Reply Assistant is a Chrome extension designed to help users generate contextual replies to LinkedIn messages quickly and efficiently. It analyzes incoming messages and provides appropriate response templates based on the message category and selected language.
 
 ## Features
@@ -30,7 +28,19 @@ To install the LinkedIn Reply Assistant Chrome extension:
 5. The generated reply will appear in the "Generated Reply" section.
 6. You can copy this reply and use it as a starting point for your LinkedIn message response.
 
-### Customizing Templates
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <img src="images/img-001.png" alt="Screenshot 1" style="width: 300px; height: auto; margin: 10px;">
+  <img src="images/img-002.png" alt="Screenshot 2" style="width: 300px; height: auto; margin: 10px;">
+  <img src="images/img-003.png" alt="Screenshot 3" style="width: 300px; height: auto; margin: 10px;">
+  <img src="images/img-004.png" alt="Screenshot 4" style="width: 300px; height: auto; margin: 10px;">
+  <img src="images/img-005.png" alt="Screenshot 5" style="width: 300px; height: auto; margin: 10px;">
+  <img src="images/img-006.png" alt="Screenshot 6" style="width: 300px; height: auto; margin: 10px;">
+  <img src="images/img-007.png" alt="Screenshot 7" style="width: 300px; height: auto; margin: 10px;">
+</div>
+
+## Customizing Templates
 
 1. Select a category from the "Custom Templates" dropdown menu.
 2. Enter your custom template in the text area below.
@@ -45,3 +55,4 @@ Contributions to improve LinkedIn Reply Assistant are welcome. Please follow the
 3. Make your changes and commit them with descriptive commit messages.
 4. Push your changes to your fork.
 5. Submit a pull request to the main repository.
+
