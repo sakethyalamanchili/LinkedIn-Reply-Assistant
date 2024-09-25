@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Reply Assistant",
+    "version": "2.1",
+    "description": "An advanced assistant for generating contextual replies to LinkedIn messages",
+    "permissions": ["activeTab", "storage"],
+    "host_permissions": ["https://www.linkedin.com/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.svg",
+        "48": "icon.svg",
+        "128": "icon.svg"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.linkedin.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  }

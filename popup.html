@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Reply Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>LinkedIn Reply Assistant</h1>
+        </header>
+        <main>
+            <section class="input-section">
+                <textarea id="message" placeholder="Enter the message you received..."></textarea>
+                <div class="controls">
+                    <select id="language" aria-label="Select language">
+                        <option value="en">English</option>
+                        <option value="hi">हिन्दी (Hindi)</option>
+                        <option value="de">Deutsch (German)</option>
+                        <option value="es">Español (Spanish)</option>
+                        <option value="fr">Français (French)</option>
+                    </select>
+                    <button id="generate">Generate Reply</button>
+                </div>
+            </section>
+            <section class="output-section">
+                <h2>Generated Reply</h2>
+                <div id="reply" class="reply-box"></div>
+            </section>
+            <section class="template-section">
+                <h2>Custom Templates</h2>
+                <select id="category" aria-label="Select category">
+                    <option value="job_offer">Job Offer</option>
+                    <option value="networking">Networking</option>
+                    <option value="inquiry">Inquiry</option>
+                    <option value="collaboration">Collaboration</option>
+                    <option value="general">General</option>
+                </select>
+                <textarea id="template" placeholder="Enter your custom template..."></textarea>
+                <button id="saveTemplate">Save Template</button>
+            </section>
+        </main>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
